@@ -1,4 +1,3 @@
-// Definição da classe Heroi
 class Heroi {
     constructor(nome, idade, tipo) {
       this.nome = nome;
@@ -28,7 +27,6 @@ class Heroi {
     }
   }
   
-  // Criando instâncias da classe Heroi e testando o método atacar
   const heroi1 = new Heroi('Arthas', 30, 'guerreiro');
   const heroi2 = new Heroi('Merlin', 150, 'mago');
   const heroi3 = new Heroi('Bruce', 40, 'monge');
